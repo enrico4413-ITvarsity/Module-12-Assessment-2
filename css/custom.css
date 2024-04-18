@@ -122,3 +122,16 @@ input{
         margin-left:150px;
     }
 }
+
+/* ADD CONTACT */
+.addContact{
+    text-align:center;
+}
+.addContactForm{
+    text-align:center;
+    margin-right:50px;
+}
+.center-button{
+    text-align:center;
+}
+
