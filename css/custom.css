@@ -1,0 +1,124 @@
+body{
+    background-color:lightgrey;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+/*                                                       HOME PAGE                                                      */
+
+.heading{
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+header{
+    color:white;
+}
+
+.center-text{
+    text-align:center;
+}
+
+button{
+    border:2px outset black;
+}
+
+.contacts-center{
+    width:100%;
+}
+
+footer{
+    height:100px;
+    width:105%;
+    bottom:0;
+    position:fixed;
+}
+
+.middle{
+    margin-top:30px;
+    display:inline-block;
+    width:100%;
+}
+.mobile-left{
+    float:left;
+    width:49%;
+    text-align:center;
+}
+
+.mobile-right{
+    float:right;
+    width:49%;
+    text-align:center;
+}
+
+table{
+    width:100%;
+    text-align:center;
+}
+
+td{
+    padding:8px;
+    border-bottom:1px solid grey;
+    border-top:1px solid grey;
+}
+
+/*                                                              EDIT PAGE                                                    */
+
+.left-button{
+    float:left;
+    width:20%;
+    margin-left:20px;
+}
+.right-button{
+    float:right;
+    width:20%;
+}
+.middle-button{
+    float:left;
+    width:20%;
+    margin-left:100px;
+}
+
+#avatarImage{
+    margin-top:50px;
+    margin-left:50px;
+}
+
+#editForm{
+    margin-top:70px;
+}
+
+label{
+  margin-top:25px;
+  margin-left:60px;
+  width:80px;
+}
+input{
+    padding:10px;
+    width:300px;
+}
+.file{
+    margin-left:140px;
+    margin-top:5px;
+}
+
+#submitForm{
+    margin-left:250px;
+}
+@media (max-width:570px){
+    #avatarImage{
+        text-align:center;
+    }
+}
+@media (min-width:1100px){
+
+    .middle-button{
+        margin-left:360px;
+    }
+    .left-button{
+        margin-left:150px;
+    }
+}
